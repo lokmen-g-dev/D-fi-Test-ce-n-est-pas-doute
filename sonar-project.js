@@ -8,7 +8,7 @@ sonarqubeScanner({
 	    'sonar.projectKey':'demoapp-project',
 	    'sonar.login': 'sqp_5a7e798cbe57587d33ae762b7c81f8e6d459ffc1',
 	    'sonar.login': 'admin',
-	    'sonar.password': 'admin',
+	    'sonar.password': '12345',
             'sonar.projectVersion':'1.0',
 	    'sonar.language':'js',
             'sonar.sourceEncoding':'UTF-8',
