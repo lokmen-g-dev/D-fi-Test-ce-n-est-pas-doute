@@ -13,9 +13,7 @@ app.use(express.static(__dirname + '/images'))
 app.get("/getCall", function(req,res){ 
 console.log("GET Method caled");
 console.log(__dirname);
-
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
-
 }).listen(9009);
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
@@ -23,7 +21,7 @@ app.get('/mithuntechnologies', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +21651495124 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226,++91-9980923216 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
     response.end();
      
   })
@@ -46,8 +44,8 @@ app.get("/html", function(req,res){
         res.send({
 		'name': 'Mithun Technologies',
 		'technology': 'DevOps',
-		'contact' : '51495124',
-		'email': 'lokmenlahmer@gmail.com'
+		'contact' : '9980923226',
+		'email': 'devopstrainingblr@gmail.com'
 	            });
         
         });
@@ -78,7 +76,3 @@ app.get('/redirect', function(req, res) {
         console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
       })
     
-
-
-
-
