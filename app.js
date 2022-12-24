@@ -13,7 +13,9 @@ app.use(express.static(__dirname + '/images'))
 app.get("/getCall", function(req,res){ 
 console.log("GET Method caled");
 console.log(__dirname);
+
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
+
 }).listen(9009);
 console.log(__dirname+"/images/mithunlogo.jpg");
 */
@@ -76,3 +78,6 @@ app.get('/redirect', function(req, res) {
         console.log("Node JS app is running at http://localhost:" + app.get('port') +"/mithuntechnologies");
       })
     
+
+
+
