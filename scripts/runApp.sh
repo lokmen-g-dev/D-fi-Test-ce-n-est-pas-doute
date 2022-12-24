@@ -11,4 +11,4 @@ echo $! > .pidfile
 set +x
 
 echo 'Now you can'
-echo 'Visit http://192.168.137.129:9981 to see your Node.js application'
+echo 'Visit http://ServerIp:9981 to see your Node.js application'
